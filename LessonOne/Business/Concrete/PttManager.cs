@@ -5,20 +5,20 @@ namespace Business.Concrete
 {
     public class PttManager : ISupplierService
     {
-        private IApplicantService _applicantService;
+        private IApplicationService _applicationService;
 
         public PttManager()
         {
         }
 
-        public PttManager(IApplicantService applicantService) //Constructor new yapıldığında çalışır.
+        public PttManager(IApplicationService applicationService) //Constructor new yapıldığında çalışır.
         {
-            _applicantService = applicantService;
+            _applicationService = applicationService;
         }
 
         public void GiveMask(Person person)
         {
-            if (_applicantService.CheckPerson(person))
+            if (_applicationService.CheckPerson(person))
             {
                 Console.WriteLine(person.FirstName + " için maske verildi");
             }

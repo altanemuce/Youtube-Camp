@@ -1,4 +1,7 @@
 ﻿
+using Business.Concrete;
+using Entities.Concrete;
+
 SelamVer(isim: "Altan");
 SelamVer(isim: "İlkay");
 SelamVer(isim: "İsmet");
@@ -70,9 +73,9 @@ PttManager pttManager = new PttManager(new PersonManager());
 pttManager.GiveMask(person1);
 
 Console.ReadLine();
-        }
+        
 
-        static void SelamVer(string isim = "noname")
+static void SelamVer(string isim = "noname")
 //method yöntemi, parantez içindekiler parametre, noname eğer boş gelirse (default parametre)
 {
     Console.WriteLine("Merhaba " + isim);

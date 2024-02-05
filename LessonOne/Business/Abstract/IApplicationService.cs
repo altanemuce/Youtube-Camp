@@ -2,7 +2,7 @@
 
 namespace Business.Abstract
 {
-    public interface IApplicantService
+    public interface IApplicationService
     {
         void ApplyForMask(Person person);
 
