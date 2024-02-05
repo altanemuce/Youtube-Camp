@@ -22,7 +22,6 @@ namespace ServiceReference1
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class TCKimlikNoDogrulaRequest
     {
@@ -42,7 +41,6 @@ namespace ServiceReference1
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tckimlik.nvi.gov.tr/WS")]
     public partial class TCKimlikNoDogrulaRequestBody
     {
@@ -74,7 +72,6 @@ namespace ServiceReference1
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.ServiceModel.MessageContractAttribute(IsWrapped=false)]
     public partial class TCKimlikNoDogrulaResponse
     {
@@ -94,7 +91,6 @@ namespace ServiceReference1
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Tools.ServiceModel.Svcutil", "2.1.0")]
-    [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
     [System.Runtime.Serialization.DataContractAttribute(Namespace="http://tckimlik.nvi.gov.tr/WS")]
     public partial class TCKimlikNoDogrulaResponseBody
     {
@@ -155,21 +151,9 @@ namespace ServiceReference1
         {
         }
         
-        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.Threading.Tasks.Task<ServiceReference1.TCKimlikNoDogrulaResponse> ServiceReference1.KPSPublicSoap.TCKimlikNoDogrulaAsync(ServiceReference1.TCKimlikNoDogrulaRequest request)
+        public System.Threading.Tasks.Task<ServiceReference1.TCKimlikNoDogrulaResponse> TCKimlikNoDogrulaAsync(ServiceReference1.TCKimlikNoDogrulaRequest request)
         {
             return base.Channel.TCKimlikNoDogrulaAsync(request);
-        }
-        
-        public System.Threading.Tasks.Task<ServiceReference1.TCKimlikNoDogrulaResponse> TCKimlikNoDogrulaAsync(long TCKimlikNo, string Ad, string Soyad, int DogumYili)
-        {
-            ServiceReference1.TCKimlikNoDogrulaRequest inValue = new ServiceReference1.TCKimlikNoDogrulaRequest();
-            inValue.Body = new ServiceReference1.TCKimlikNoDogrulaRequestBody();
-            inValue.Body.TCKimlikNo = TCKimlikNo;
-            inValue.Body.Ad = Ad;
-            inValue.Body.Soyad = Soyad;
-            inValue.Body.DogumYili = DogumYili;
-            return ((ServiceReference1.KPSPublicSoap)(this)).TCKimlikNoDogrulaAsync(inValue);
         }
         
         public virtual System.Threading.Tasks.Task OpenAsync()

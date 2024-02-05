@@ -5,11 +5,11 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LessonOne", "LessonOne", "{91A14EB0-722B-4067-80C0-5310960CF153}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "LessonOne\ConsoleApp\ConsoleApp.csproj", "{4BA4E388-F26D-4851-A35E-7A7234579149}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp", "LessonOne\ConsoleApp\ConsoleApp.csproj", "{4BA4E388-F26D-4851-A35E-7A7234579149}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "LessonOne\Entities\Entities.csproj", "{CBDCB491-F28E-4AE2-BDC6-B3BD19B1A3F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "LessonOne\Entities\Entities.csproj", "{CBDCB491-F28E-4AE2-BDC6-B3BD19B1A3F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "LessonOne\Business\Business.csproj", "{17609CEF-0577-4F4D-B94F-EC70D22ED5B1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "LessonOne\Business\Business.csproj", "{DDA970E9-A378-437D-AD6B-035F0AEAA47A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +25,10 @@ Global
 		{CBDCB491-F28E-4AE2-BDC6-B3BD19B1A3F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBDCB491-F28E-4AE2-BDC6-B3BD19B1A3F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBDCB491-F28E-4AE2-BDC6-B3BD19B1A3F0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{17609CEF-0577-4F4D-B94F-EC70D22ED5B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{17609CEF-0577-4F4D-B94F-EC70D22ED5B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{17609CEF-0577-4F4D-B94F-EC70D22ED5B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{17609CEF-0577-4F4D-B94F-EC70D22ED5B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDA970E9-A378-437D-AD6B-035F0AEAA47A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDA970E9-A378-437D-AD6B-035F0AEAA47A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDA970E9-A378-437D-AD6B-035F0AEAA47A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDA970E9-A378-437D-AD6B-035F0AEAA47A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,7 +36,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{4BA4E388-F26D-4851-A35E-7A7234579149} = {91A14EB0-722B-4067-80C0-5310960CF153}
 		{CBDCB491-F28E-4AE2-BDC6-B3BD19B1A3F0} = {91A14EB0-722B-4067-80C0-5310960CF153}
-		{17609CEF-0577-4F4D-B94F-EC70D22ED5B1} = {91A14EB0-722B-4067-80C0-5310960CF153}
+		{DDA970E9-A378-437D-AD6B-035F0AEAA47A} = {91A14EB0-722B-4067-80C0-5310960CF153}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F2FD6010-8F2D-4235-9770-3F327A6D1666}
